@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './medium_rare_icon.jpg';
 import './App.css';
 
 function App() {
@@ -11,11 +11,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://beian.miit.gov.cn/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          粤ICP备2023135574号
         </a>
       </header>
     </div>
