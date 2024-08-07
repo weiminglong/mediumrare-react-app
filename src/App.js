@@ -1,6 +1,6 @@
 import logo from './medium_rare_icon.jpg';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
