@@ -1,40 +1,11 @@
 import logo from './medium_rare_icon.jpg';
 import './App.css';
-<<<<<<< HEAD
-// import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-=======
->>>>>>> parent of 6440ae9 (test pages)
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-<<<<<<< HEAD
-        {/*<Router>*/}
-        {/*  <div>*/}
-        {/*    <nav>*/}
-        {/*      <ul>*/}
-        {/*        <li>*/}
-        {/*          <Link to="/">Home</Link>*/}
-        {/*        </li>*/}
-        {/*        <li>*/}
-        {/*          <Link to="/about">About</Link>*/}
-        {/*        </li>*/}
-        {/*        <li>*/}
-        {/*          <Link to="/contact">Contact</Link>*/}
-        {/*        </li>*/}
-        {/*      </ul>*/}
-        {/*    </nav>*/}
-
-        {/*    <Routes>*/}
-        {/*      <Route path="/" element={<Home />} />*/}
-        {/*      <Route path="/about" element={<About />} />*/}
-        {/*      <Route path="/contact" element={<Contact />} />*/}
-        {/*    </Routes>*/}
-        {/*  </div>*/}
-        {/*</Router>*/}
-=======
->>>>>>> parent of 6440ae9 (test pages)
         <p>
           桑莫君信息科技（深圳）有限公司
         </p>
