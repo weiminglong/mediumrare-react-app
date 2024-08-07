@@ -1,11 +1,15 @@
 import logo from './medium_rare_icon.jpg';
 import './App.css';
+<<<<<<< HEAD
 // import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+=======
+>>>>>>> parent of 6440ae9 (test pages)
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
         {/*<Router>*/}
         {/*  <div>*/}
         {/*    <nav>*/}
@@ -29,6 +33,8 @@ function App() {
         {/*    </Routes>*/}
         {/*  </div>*/}
         {/*</Router>*/}
+=======
+>>>>>>> parent of 6440ae9 (test pages)
         <p>
           桑莫君信息科技（深圳）有限公司
         </p>
@@ -47,9 +53,6 @@ function App() {
         >
           粤ICP备2023135574号
         </a>
-        <p>
-          桑莫君信息科技（深圳）有限公司
-        </p>
       </header>
     </div>
   );
