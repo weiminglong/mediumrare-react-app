@@ -6,29 +6,29 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Router>
-          <div>
-            <nav>
-              <ul>
-                <li>
-                  <Link to="/">Home</Link>
-                </li>
-                <li>
-                  <Link to="/about">About</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Contact</Link>
-                </li>
-              </ul>
-            </nav>
+        {/*<Router>*/}
+        {/*  <div>*/}
+        {/*    <nav>*/}
+        {/*      <ul>*/}
+        {/*        <li>*/}
+        {/*          <Link to="/">Home</Link>*/}
+        {/*        </li>*/}
+        {/*        <li>*/}
+        {/*          <Link to="/about">About</Link>*/}
+        {/*        </li>*/}
+        {/*        <li>*/}
+        {/*          <Link to="/contact">Contact</Link>*/}
+        {/*        </li>*/}
+        {/*      </ul>*/}
+        {/*    </nav>*/}
 
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-          </div>
-        </Router>
+        {/*    <Routes>*/}
+        {/*      <Route path="/" element={<Home />} />*/}
+        {/*      <Route path="/about" element={<About />} />*/}
+        {/*      <Route path="/contact" element={<Contact />} />*/}
+        {/*    </Routes>*/}
+        {/*  </div>*/}
+        {/*</Router>*/}
         <p>
           桑莫君信息科技（深圳）有限公司
         </p>
