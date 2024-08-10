@@ -1,7 +1,6 @@
 // src/pages/FaqPage/FaqPage.js
 import React from 'react';
 import './FaqPage.css';
-import Footer from '../../components/Footer/Footer';
 
 const FaqPage = () => {
     return (
@@ -49,7 +48,6 @@ const FaqPage = () => {
             {/*    <h2 className="faq-question">Q: 三分熟 Medium Rare目前支持哪些平台?</h2>*/}
             {/*    <p className="faq-answer">A: 我们暂时只上线了小程序端，iOS、安卓、Web端目前还正在研发中。</p>*/}
             {/*</div>*/}
-            <Footer />
         </div>
     );
 };

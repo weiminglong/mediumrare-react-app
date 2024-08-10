@@ -1,43 +1,107 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 .App {
-  text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.App > *:not(.Footer) {
+    flex: 1;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 30vmin;
+    pointer-events: none;
+}
+
+.centered-text {
+    text-align: center;
+    margin: 10px auto;
+    padding-left: 25vw; /* Add left gap */
+    padding-right: 25vw; /* Add right gap */
+    max-width: 1600px;
+    font-size: 2rem;
+    color: #333;
 }
 
 .NavBar {
-  margin-bottom: 0; /* Ensure no extra margin below the NavBar */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays above other content */
+    margin-bottom: 0; /* Ensure no extra margin below the NavBar */
 }
 
 .App-header {
-  background-color: floralwhite;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-  padding-top: 20px;
-}
-
-.App-header p.centered-text {
-  max-width: 1600px;
-  margin: 10px auto;
-  text-align: center;
+    background-color: floralwhite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    padding-top: 80px; /* Add top padding to avoid overlap with NavBar */
+    margin-top: 60px; /* Add top margin to avoid overlap with NavBar */
 }
 
 .App-link {
-  color: #ffffff;
+    color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mp-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add some space between .mp-image divs */
+}
+
+.mp-image {
+    display: flex;
+    justify-content: center; /* Center the images */
+    gap: 200px; /* Add some space between images */
+}
+
+.mp-image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mp-image img {
+    max-width: 80%;
+    max-height: 50vh; /* Adjust the max-height as needed */
+    object-fit: contain; /* Maintain aspect ratio */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.mp-image-text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+.mp-image img:hover {
+    transform: scale(1.05);
+    border-color: #000;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #fff5bc, #fad0d0, #fff5bc);
+    margin: 30px auto; /* Adjust the margin as needed */
+    width: 50%;
+}
+
+.gap {
+    height: 20px; /* Adjust the height as needed */
+    width: 100%;
 }

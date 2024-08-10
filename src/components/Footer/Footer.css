@@ -7,9 +7,7 @@
     width: 100%;
     display: block; /* Ensure the footer is a block-level element */
     box-sizing: border-box; /* Include padding and border in the element's total width */
-    position: relative; /* Position the footer at the bottom of the page */
-    bottom: 0;
-    left: 0;
+    position: static; /* Position the footer at the bottom of the page */
 }
 
  .footer .App-link {

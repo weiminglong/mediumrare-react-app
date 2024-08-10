@@ -10,6 +10,8 @@ function NavBar() {
             <ul>
                 <li><Link to="/">首页</Link></li>
                 <li><Link to="/faq-page">FAQ</Link></li>
+                <li><Link to="/map-page">地图</Link></li>
+                <li><Link to="/about-page">关于我们</Link></li>
             </ul>
         </nav>
     );

@@ -1,0 +1,16 @@
+/* src/pages/MapPage/MapPage.css */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.map-page {
+    text-align: center;
+    padding: 0;
+}
+
+.map-page iframe {
+    width: 90vw;
+    height: 80vh;
+    margin-top: 100px;
+}
