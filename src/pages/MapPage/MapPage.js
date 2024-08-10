@@ -24,7 +24,7 @@ const MapPage = () => {
                 style={{ border: '0' }}
                 loading="lazy"
                 allowFullScreen
-                src="https://www.google.com/maps/embed/v1/view?zoom=9&center=22.3193%2C114.1694&key=AIzaSyCMxzCLk6AIaHWCo_uLzKeMRlSnm8Nj9Jc"
+                src="https://www.google.com/maps/embed/v1/view?zoom=9&center=22.3193%2C114.1694&key="
             ></iframe>
         </div>
     );
