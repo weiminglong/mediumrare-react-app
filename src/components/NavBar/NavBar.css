@@ -1,0 +1,43 @@
+.NavBar {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    overflow: hidden;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    height: 10%;
+}
+
+.NavBar .nav-icon {
+    height: 80%; /* Adjust the height as needed */
+    margin-left: 25%; /* Space between the icon and the nav items */
+}
+
+.NavBar ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-grow: 0; /* Allow the ul to take up remaining space */
+}
+
+.NavBar li {
+    padding: 14px 20px;
+}
+
+.NavBar li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.NavBar li a:hover {
+    background-color: #ddd;
+    color: black;
+}

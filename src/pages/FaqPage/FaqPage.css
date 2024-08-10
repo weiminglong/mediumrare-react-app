@@ -1,0 +1,48 @@
+/* src/pages/FaqPage/FaqPage.css */
+.faq-page {
+  padding: 20px;
+  background-color: #fff8e9;
+  font-family: 'Arial', sans-serif;
+  min-height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+}
+
+.faq-title {
+  font-size: 100px; /* Increase the font size to make the title larger */
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left; /* Align text to the left */
+  margin-left: 25%; /* Move the title slightly to the left */
+}
+
+.faq-item {
+  margin-bottom: 30px; /* Increase the margin-bottom to create vertical gap */
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f4ecec; /* Light grey background for the bubble */
+  display: block; /* Ensure each item is a block element */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+  width: 50%; /* Decrease the width of the bubbles */
+  margin-left: auto; /* Center the bubbles horizontally */
+  margin-right: auto;
+}
+
+.faq-item:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.faq-question {
+  font-size: 24px; /* Assuming the home page question font size is 24px */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  font-size: 20px; /* Assuming the home page answer font size is 20px */
+  margin-left: 0;
+  margin-top: 10px; /* Add margin to separate from the question */
+}
