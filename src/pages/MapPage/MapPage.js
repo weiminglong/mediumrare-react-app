@@ -1,6 +1,5 @@
 // src/pages/MapPage/MapPage.js
-import React, { useEffect } from 'react';
-// import { AppleMap } from 'react-apple-maps';
+// import React, { useEffect } from 'react';
 import './MapPage.css';
 
 const MapPage = () => {
