@@ -9,7 +9,7 @@ html, body {
     flex-direction: column;
 }
 
-.App > *:not(.Footer) {
+.App-header {
     flex: 1;
 }
 

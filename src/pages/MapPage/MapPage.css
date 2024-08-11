@@ -6,7 +6,9 @@ html, body {
 
 .map-page {
     text-align: center;
+    margin-top: 5vh;
     padding: 0;
+    flex: 1;
 }
 
 .map-page iframe {

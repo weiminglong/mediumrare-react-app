@@ -1,6 +1,10 @@
 .about-page {
   padding: 20px;
+  margin-top: 10%; /* Adjust this value based on the height of your navbar */
   text-align: center;
+  flex:1;
+  padding-left: 25vw;
+  padding-right: 25vw
 }
 
 .about-page h1 {
@@ -12,3 +16,4 @@
   font-size: 1.2rem;
   color: #333;
 }
+
